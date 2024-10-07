@@ -13,24 +13,17 @@ Depends:
 	DatabaseConnector (>= 5.0.0),
 	R (>= 4.1.0)
 Imports:
-    checkmate,
     dplyr,
-    lifecycle,
-    ParallelLogger,
-    SqlRender
+    rlang
 Suggests:
+  CohortGenerator,
+  digest,
   Eunomia,
-  remotes,
-  rmarkdown,
-  knitr,
 	testthat,
 	withr
 Remotes:
-  ohdsi/Eunomia,
-  ohdsi/ParallelLogger
 License: Apache License
 RoxygenNote: 7.3.2
-VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Language: en-US
